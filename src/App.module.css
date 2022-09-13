@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+main.tasksContainer {
+  width: 100%;
+  height: 100%;
+
+  padding-left: 22rem;
+  padding-right: 22rem;
+
+  justify-content: center;
+}

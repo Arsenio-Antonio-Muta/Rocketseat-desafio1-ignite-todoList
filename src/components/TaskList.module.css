@@ -1,0 +1,42 @@
+li {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+
+  background-color: var(--gray-700);
+  list-style: none;
+  padding: 1rem;
+}
+
+li label {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+li p {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+
+  cursor: pointer;
+}
+
+.trash {
+  color: var(--gray-300);
+  transition: 0.2s;
+  cursor: pointer;
+  margin-top: 0.2rem;
+}
+
+p.finished {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.labelContainer {
+  border-radius: 100%;
+}
